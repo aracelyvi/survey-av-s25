@@ -9,7 +9,8 @@
   </head>
   <body>
     <h1 id="title">Movie Survey</h1>
-    <p id="description">Thank you for taking the time to help us!</p>
+    <p id="description">Thank you for taking the time to help us!
+    </p>
     <form id="survey-form"> 
       <p><label id="name-label">Name (required): </label></p>
       <p><input id="name" type="text" required placeholder="John Doe">
@@ -42,38 +43,40 @@
 <p>What are some of your favorite movie franchises? (check all that apply)
 </p>
 
-          <label for="ads">Social Media Ads</label>
-          <input type="checkbox" id="ads" name="ads" value="ads" />
-
-          <label for="recommendation">Personal Recommendation</label>
+          
+          <input type="checkbox" id="harry-potter" name="harry-potter" value="harry-potter" />
+      <label for="harry-potter">Harry Potter</label>
+<br>
+          
           <input
             type="checkbox"
-            id="recommendation"
-            name="recommendation"
-            value="recommendation"
+            id="mcu"
+            name="mcu"
+            value="mcu"
           />
-
-          <label for="location">Location</label>
-          <input type="checkbox" id="location" name="location" value="location" />
-
-          <label for="reputation">Reputation</label>
+      <label for="mcu">Marvel Cinematic Universe</label>
+<br>
+          
+          <input type="checkbox" id="star-wars" name="star-wars" value="star-wars" />
+      <label for="star-wars">Star Wars</label>
+<br>
+          
           <input
             checked
             type="checkbox"
-            id="reputation"
-            name="reputation"
-            value="reputation"
+            id="jurassic-park"
+            name="jurassic-park"
+            value="jurassic-park"
           />
-
-          <label for="price">Price</label>
-          <input type="checkbox" id="price" name="price" value="price" />
-  </p>
+      <label for="jurassic-park">Jurassic Park</label>
+<br>
+      <br>
 
           <label for="comments">Other Comments or Suggestions?</label>
 <br>
-        <textarea cols="30" rows="5" name="comments" id="comments"></textarea>
+        <textarea cols="70" rows="5" name="comments" id="comments"></textarea>
 <br>
+  <br>
         <button id="submit" type="submit">Submit</button>
     </form>
-  </body>
   </html>
