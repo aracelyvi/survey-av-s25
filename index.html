@@ -1,0 +1,79 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Play:wght@400;700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">  
+  </head>
+  <body>
+    <h1 id="title">Movie Survey</h1>
+    <p id="description">Thank you for taking the time to help us!</p>
+    <form id="survey-form"> 
+      <p><label id="name-label">Name (required): </label></p>
+      <p><input id="name" type="text" required placeholder="John Doe">
+      </p>
+      <p><label id="email-label">Email (required): </label></p>
+      <p><input id="email" type="email" required placeholder="example@email.com">
+      </p>
+      <p>
+      <label id="number-label">Age (optional):</label></p>
+          <p><input id="number" type="number"  id="age" min="3" max="100" placeholder="3" />
+          </p>
+
+ <p><label>Do you watch movies in your free time?</label></p>
+          <label for="yes-option">Yes</label>
+          <input id="yes-option" type="radio" name="hotel-stay" value="yes-option"/>
+          <label for="no-option">No</label>
+          <input id="no-option" type="radio" name="hotel-stay" value="no-option"/>
+
+          <p><label >What genre of movie do you typically watch?</label></p>
+<p>
+          <select id="dropdown">
+            <option value="horror">Horror</option>
+            <option value="thriller">Thriller</option>
+            <option value="romance">Romance</option>
+            <option value="drama">Drama</option>
+            <option selected value="comedy">Comedy</option>
+          </select>
+</p>
+
+<p>What are some of your favorite movie franchises? (check all that apply)
+</p>
+
+          <label for="ads">Social Media Ads</label>
+          <input type="checkbox" id="ads" name="ads" value="ads" />
+
+          <label for="recommendation">Personal Recommendation</label>
+          <input
+            type="checkbox"
+            id="recommendation"
+            name="recommendation"
+            value="recommendation"
+          />
+
+          <label for="location">Location</label>
+          <input type="checkbox" id="location" name="location" value="location" />
+
+          <label for="reputation">Reputation</label>
+          <input
+            checked
+            type="checkbox"
+            id="reputation"
+            name="reputation"
+            value="reputation"
+          />
+
+          <label for="price">Price</label>
+          <input type="checkbox" id="price" name="price" value="price" />
+  </p>
+
+          <label for="comments">Other Comments or Suggestions?</label>
+<br>
+        <textarea cols="30" rows="5" name="comments" id="comments"></textarea>
+<br>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+  </html>

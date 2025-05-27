@@ -1,0 +1,36 @@
+body{
+ background-image: url(https://snipboard.io/aY5slI.jpg);
+  box-sizing: border-box;
+    font-family: "Play", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 200px;  
+}
+#survey-form, #title, #description{
+  background-color: #D8B1A5;
+  margin: auto;
+  width: 600px;
+  height: auto;
+  padding: 10px; 
+}
+
+#title, #description{
+  text-align:center;
+}
+
+#survey-form{
+  text-indent: 8px;
+}
+
+#submit{
+   font-family: "Play", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+#dropdown{
+    font-family: "Play", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
